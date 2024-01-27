@@ -1,0 +1,15 @@
+.contact-section {
+  background-color: #e5d9db;
+  width: 400px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  padding: 30px 10px;
+  border-radius: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact-section h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}

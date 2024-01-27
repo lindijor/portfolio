@@ -4,12 +4,6 @@
   padding: 50px;
 }
 
-.main h2 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: 300;
-}
-
 .main p {
   font-family: sans-serif;
   width: 600px;
@@ -18,22 +12,7 @@
   font-size: 20px;
 }
 
-.main a {
-  font-family: sans-serif;
-  font-size: 20px;
-  color: black;
-  transition: all 150ms ease-in-out;
-}
-
-.main a:hover {
-  opacity: 0.6;
-}
-
 .more-link {
   text-align: center;
   margin-top: 30px;
-}
-
-.more-link span {
-  font-size: 18px;
 }
