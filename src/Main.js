@@ -3,8 +3,8 @@ import "./Main.css";
 
 export default function Main() {
   return (
-    <div className="main">
-      <h2>Something about me</h2>
+    <div className="main" id="more">
+      <h2>A little something about me</h2>
       <p>
         Lorem ipsum dolor sit amet in quis, consectetur eros adipiscing et elit.
         Suspendisse varius enim in eros elementum tristique. Duis cursus, quis
