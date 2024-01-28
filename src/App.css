@@ -73,7 +73,7 @@ a {
 
 .secondary-btn:hover {
   background: #b6cdbd;
-  color: white;
+  color: black;
   cursor: pointer;
   border: 2px #b6cdbd solid;
 }
