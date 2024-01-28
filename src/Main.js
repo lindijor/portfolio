@@ -13,12 +13,6 @@ export default function Main() {
         imperdiet. Nunc ut sem vitae risus tristique posuere varius enim in eros
         elementum tristique. Duis cursus, mi quis viverra ornare.
       </p>
-      <div className="more-link">
-        <a href="/">
-          More about me{" "}
-          <span class="material-symbols-outlined">arrow_forward</span>
-        </a>
-      </div>
     </div>
   );
 }

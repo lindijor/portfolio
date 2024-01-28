@@ -17,3 +17,8 @@
 .contact a:hover {
   opacity: 0.6;
 }
+
+.contact-section .fa-arrow-up-right-from-square {
+  font-size: 12px;
+  padding-left: 7px;
+}

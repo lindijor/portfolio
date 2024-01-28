@@ -8,8 +8,8 @@ export default function Contact() {
       <div className="contact-section">
         <h3>Send me an e-mail</h3>
         <a href="mailto:jorgensenlindis@gmail.com">
-          jorgensenlindis@gmail.com{" "}
-          <span class="material-symbols-outlined">arrow_forward</span>
+          jorgensenlindis@gmail.com
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
       <div className="contact-section">
@@ -19,15 +19,15 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          Get me on LinkedIn{" "}
-          <span class="material-symbols-outlined">arrow_forward</span>
+          Get me on LinkedIn
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
       <div className="contact-section">
         <h3>Learn more about me</h3>
         <a href="/">
-          Download my resume{" "}
-          <span class="material-symbols-outlined">arrow_forward</span>
+          Download my resume
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
     </div>

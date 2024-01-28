@@ -25,8 +25,7 @@ export default function Work() {
             target="_blank"
             rel="noreferrer"
           >
-            Check it out!{" "}
-            <span class="material-symbols-outlined">arrow_forward</span>
+            Check it out! <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </div>
         <div className="image">
@@ -51,8 +50,7 @@ export default function Work() {
             rel="noreferrer"
             className="btn"
           >
-            Check it out!{" "}
-            <span class="material-symbols-outlined">arrow_forward</span>
+            Check it out! <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </div>
         <div className="image">
