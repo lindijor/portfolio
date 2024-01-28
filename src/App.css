@@ -80,8 +80,9 @@ a {
 
 @media (max-width: 1000px) {
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     width: 100%;
+    margin: 0 0 40px 0;
   }
 
   h2 {
