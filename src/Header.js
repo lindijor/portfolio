@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 export default function Header() {
-  function scrollToNextSection(event) {
+  function scrollToAbout(event) {
     event.preventDefault();
     const more = document.getElementById("more");
     if (more) {
@@ -31,13 +31,19 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#more">About</a>
+            <a href="#more" onClick={scrollToAbout}>
+              About
+            </a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a href="#work" onClick={scrollToWork}>
+              Work
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={scrollToContact}>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
@@ -57,11 +63,7 @@ export default function Header() {
             Get in touch!
           </a>
         </div>
-        <a
-          href="#more"
-          className="click-to-scroll"
-          onClick={scrollToNextSection}
-        >
+        <a href="#more" className="click-to-scroll" onClick={scrollToAbout}>
           <span class="material-symbols-outlined">arrow_forward</span>
         </a>
       </div>
