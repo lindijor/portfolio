@@ -34,12 +34,12 @@
   }
 
   .main p {
-    width: 400px;
+    width: 80%;
     font-size: 18px;
   }
 
   .main img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
     display: block;

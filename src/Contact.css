@@ -22,3 +22,9 @@
   font-size: 12px;
   padding-left: 7px;
 }
+
+@media (max-width: 1000px) {
+  .contact-section {
+    width: 70%;
+  }
+}

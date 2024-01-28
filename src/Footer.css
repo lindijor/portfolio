@@ -45,3 +45,9 @@
 .footer a:hover {
   opacity: 0.6;
 }
+
+@media (max-width: 1000px) {
+  .footer-section {
+    width: 100%;
+  }
+}
