@@ -5,7 +5,7 @@ import weather from "./weather-app.png";
 
 export default function Work() {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <h2>Some of my work</h2>
       <div className="work-section">
         <div>
