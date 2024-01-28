@@ -6,6 +6,36 @@
   justify-content: center;
 }
 
+nav {
+  display: grid;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  margin-top: 30px;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: overline;
+  opacity: 0.6;
+}
+
 .header-btns {
   text-align: center;
 }

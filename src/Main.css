@@ -1,6 +1,8 @@
 .main {
   background-color: #e5d9db;
   padding: 50px 0 100px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .main p {
@@ -18,4 +20,13 @@
 
 .main a:hover {
   opacity: 0.6;
+}
+
+.main img {
+  max-width: 300px;
+  height: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 80px;
 }

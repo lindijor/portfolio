@@ -2,6 +2,22 @@ import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
+  function scrollToAbout(event) {
+    event.preventDefault();
+    const about = document.getElementById("more");
+    if (about) {
+      about.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
+  function scrollToWork(event) {
+    event.preventDefault();
+    const work = document.getElementById("work");
+    if (work) {
+      work.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+
   return (
     <div className="footer">
       <div className="footer-section">
@@ -9,10 +25,14 @@ export default function Footer() {
           <h3>Contents</h3>
           <ul>
             <li>
-              <a href="/">About me</a>
+              <a href="#more" onClick={scrollToAbout}>
+                About me
+              </a>
             </li>
             <li>
-              <a href="/">Some of my work</a>
+              <a href="work" onClick={scrollToWork}>
+                Some of my work
+              </a>
             </li>
           </ul>
         </div>

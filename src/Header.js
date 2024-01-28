@@ -27,21 +27,44 @@ export default function Header() {
   }
 
   return (
-    <div className="header">
-      <h1>
-        Hi! I'm Lindis Jørgensen, a junior front-end deveolper based in Oslo
-      </h1>
-      <div className="header-btns">
-        <a href="#work" className="btn" onClick={scrollToWork}>
-          My work
-        </a>
-        <a href="#contact" className="secondary-btn" onClick={scrollToContact}>
-          Get in touch!
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#more">About</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div className="header">
+        <h1>
+          Hi! I'm Lindis Jørgensen, a junior front-end deveolper based in Oslo
+        </h1>
+        <div className="header-btns">
+          <a href="#work" className="btn" onClick={scrollToWork}>
+            My work
+          </a>
+          <a
+            href="#contact"
+            className="secondary-btn"
+            onClick={scrollToContact}
+          >
+            Get in touch!
+          </a>
+        </div>
+        <a
+          href="#more"
+          className="click-to-scroll"
+          onClick={scrollToNextSection}
+        >
+          <span class="material-symbols-outlined">arrow_forward</span>
         </a>
       </div>
-      <a href="#more" className="click-to-scroll" onClick={scrollToNextSection}>
-        <span class="material-symbols-outlined">arrow_forward</span>
-      </a>
     </div>
   );
 }
