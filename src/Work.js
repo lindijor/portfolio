@@ -11,13 +11,8 @@ export default function Work() {
         <div>
           <h3>Weather app</h3>
           <p>
-            Lorem ipsum dolor sit amet in quis, consectetur eros adipiscing et
-            elit. Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, quis viverra ornare, eros dolor et interdum nulla, ut
-            commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
-            id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare.
+            World weather application built using HTML, two active APIs,
+            advanced CSS, and React.
           </p>
           <a
             href="https://your-daily-weather-app.netlify.app/"
@@ -36,13 +31,7 @@ export default function Work() {
         <div>
           <h3>Dictionary</h3>
           <p>
-            Lorem ipsum dolor sit amet in quis, consectetur eros adipiscing et
-            elit. Suspendisse varius enim in eros elementum tristique. Duis
-            cursus, quis viverra ornare, eros dolor et interdum nulla, ut
-            commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus
-            id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare.
+            Dictionary built using HTML, an active API, advanced CSS, and React.
           </p>
           <a
             href="https://everyday-dictionary.netlify.app/"

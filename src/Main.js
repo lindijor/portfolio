@@ -8,12 +8,12 @@ export default function Main() {
       <div className="text-section">
         <h2>A little something about me</h2>
         <p>
-          Lorem ipsum dolor sit amet in quis, consectetur eros adipiscing et
-          elit. Suspendisse varius enim in eros elementum tristique. Duis
-          cursus, quis viverra ornare, eros dolor et interdum nulla, ut commodo
-          diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-          lorem imperdiet. Nunc ut sem vitae risus tristique posuere varius enim
-          in eros elementum tristique. Duis cursus, mi quis viverra ornare.
+          Hi! I'm Lindis Jørgensen, and i currently work as an SEO specialist in
+          an Oslo-based agency. I've recently discovered a love for coding, and
+          pursued to take a coding workshop at SheCodes, which I completed this
+          January. I'm eager to keep learning and take on exciting
+          coding-projects, whereas my goal is to be working as a front-end
+          developer full time. Check out some of my work below!
         </p>
       </div>
       <div>
