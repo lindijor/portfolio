@@ -13,7 +13,8 @@ export default function Main() {
           pursued to take a coding workshop at SheCodes, which I completed this
           January. I'm eager to keep learning and take on exciting
           coding-projects, whereas my goal is to be working as a front-end
-          developer full time. Check out some of my work below!
+          developer full time. My skills include HTML, CSS, JavaScript and
+          React. Check out some of my work below!
         </p>
       </div>
       <div>

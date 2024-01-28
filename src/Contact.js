@@ -27,7 +27,7 @@ export default function Contact() {
       <div className="contact-section">
         <h3>Learn more about me</h3>
         <a href={CV} target="_blank" rel="noreferrer">
-          Download my resume
+          Download my resume <em>(Norwegian)</em>
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
       </div>
