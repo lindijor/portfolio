@@ -64,7 +64,7 @@ export default function Header() {
           </a>
         </div>
         <a href="#more" className="click-to-scroll" onClick={scrollToAbout}>
-          <span class="material-symbols-outlined">arrow_forward</span>
+          <i class="fa-solid fa-angles-down"></i>
         </a>
       </div>
     </div>

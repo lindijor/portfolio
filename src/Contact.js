@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import CV from "./Lindis CV.pdf";
 
 export default function Contact() {
   return (
@@ -25,7 +26,7 @@ export default function Contact() {
       </div>
       <div className="contact-section">
         <h3>Learn more about me</h3>
-        <a href="/">
+        <a href={CV} target="_blank" rel="noreferrer">
           Download my resume
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </a>
