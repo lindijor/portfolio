@@ -77,3 +77,25 @@ a {
   cursor: pointer;
   border: 2px #b6cdbd solid;
 }
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .btn,
+  .secondary-btn {
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+}

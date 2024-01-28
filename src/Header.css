@@ -56,3 +56,9 @@ nav a:hover {
   background-color: #b6cdbd;
   scale: 1.2;
 }
+
+@media (max: 900px) {
+  .header {
+    width: 100%;
+  }
+}
