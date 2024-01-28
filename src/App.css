@@ -1,6 +1,6 @@
 body {
   font-family: "Bebas Neue", sans-serif;
-  background-color: #f0f2f5;
+  background-color: #f2f9f1;
   scroll-behavior: smooth;
 }
 
@@ -52,25 +52,28 @@ a {
 }
 
 .btn {
-  background: #e5d9db;
-  border: 2px #e5d9db solid;
+  color: black;
+  background: #b6cdbd;
+  border: 2px #b6cdbd solid;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .secondary-btn {
+  color: black;
   background: white;
-  border: 2px #e5d9db solid;
+  border: 2px #b6cdbd solid;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .btn:hover {
+  color: black;
   background: white;
   cursor: pointer;
 }
 
 .secondary-btn:hover {
-  background: #e5d9db;
-  color: black;
+  background: #b6cdbd;
+  color: white;
   cursor: pointer;
-  border: 2px #e5d9db solid;
+  border: 2px #b6cdbd solid;
 }
