@@ -2,13 +2,13 @@ import React from "react";
 import "./Header.css";
 
 export default function Header() {
-  const scrollToNextSection = (event) => {
+  function scrollToNextSection(event) {
     event.preventDefault();
     const section = document.getElementById("more");
     if (section) {
       section.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  };
+  }
   return (
     <div className="header">
       <h1>

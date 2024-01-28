@@ -41,3 +41,7 @@
 .footer a {
   font-size: 13px;
 }
+
+.footer a:hover {
+  opacity: 0.6;
+}

@@ -35,10 +35,6 @@ a {
   transition: all 150ms ease-in-out;
 }
 
-a:hover {
-  opacity: 0.6;
-}
-
 .material-symbols-outlined {
   font-size: 18px;
 }
