@@ -48,7 +48,7 @@
 
 @media (max-width: 1000px) {
   .footer-section {
-    width: 100%;
+    width: 80vw;
   }
 
   .footer p {
