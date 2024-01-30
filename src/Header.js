@@ -53,7 +53,7 @@ export default function Header() {
         </h1>
         <div className="header-btns">
           <a href="#work" className="btn" onClick={scrollToWork}>
-            My work
+            Check out my work
           </a>
           <a
             href="#contact"

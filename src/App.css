@@ -10,6 +10,8 @@ h1 {
   font-weight: lighter;
   width: 1000px;
   text-transform: uppercase;
+  margin: 40px 0;
+  line-height: 1;
 }
 
 h2 {
