@@ -61,4 +61,8 @@ nav a:hover {
   .header {
     width: 100vw;
   }
+
+  nav ul {
+    right: 30px;
+  }
 }
