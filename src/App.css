@@ -46,7 +46,7 @@ a {
   color: black;
   text-decoration: none;
   padding: 15px 25px;
-  margin: 0 20px;
+  margin: 0 8px;
   border-radius: 15px;
   font-size: 20px;
   font-family: sans-serif;
@@ -98,7 +98,7 @@ a {
   .btn,
   .secondary-btn {
     padding: 10px 20px;
-    margin: 0 15px;
+    margin: 0 8px;
     font-size: 16px;
   }
 }

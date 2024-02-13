@@ -43,12 +43,11 @@ nav a:hover {
 .header .fa-angles-down {
   font-size: 22px;
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   left: 50%;
   border: 2px #b6cdbd solid;
   border-radius: 100%;
   padding: 7px 9px;
-  margin-bottom: 20px;
   transition: all 200ms ease-in-out;
 }
 

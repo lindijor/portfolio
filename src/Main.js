@@ -8,7 +8,7 @@ export default function Main() {
       <div className="text-section">
         <h2>A little something about me</h2>
         <p>
-          Hi! I'm Lindis Jørgensen, and i currently work as a SEO specialist in
+          Hi! I'm Lindis Jørgensen, and i currently work as a SEO specialist at
           an Oslo-based agency. I've recently discovered a love for coding, and
           pursued to take a coding workshop at SheCodes, which I completed this
           January. I'm eager to keep learning and take on exciting
