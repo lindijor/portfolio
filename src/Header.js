@@ -49,7 +49,7 @@ export default function Header() {
       </nav>
       <div className="header">
         <h1>
-          Hi! I'm Lindis Jørgensen, a junior front-end deveolper based in Oslo
+          Hi! I'm Lindis Jørgensen, a junior front-end developer based in Oslo
         </h1>
         <div className="header-btns">
           <a href="#work" className="btn" onClick={scrollToWork}>
