@@ -16,10 +16,11 @@
 
 .main h2 {
   text-align: left;
+  width: 600px;
 }
 
 .main img {
-  max-width: 300px;
+  max-width: 100%;
   height: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 10px;
@@ -51,5 +52,6 @@
     text-align: left;
     margin-left: 40px;
     margin-right: 40px;
+    width: 80%;
   }
 }
